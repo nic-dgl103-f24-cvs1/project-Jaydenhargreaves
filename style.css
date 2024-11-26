@@ -43,6 +43,33 @@ max-width: 150px;
 height: 150px;
 }
 
+.farm-fields-img{
+  background-image: url(images/farm_fields.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 600px;
+}
+
+.hero-black-creek{
+  text-align: center;
+  justify-content: center;
+  padding-top: 200px;
+
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+button{
+  
+}
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   header {
