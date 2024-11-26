@@ -141,6 +141,20 @@ footer {
   gap: 90px;
 }
 
+.footer-pages {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-pages a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
