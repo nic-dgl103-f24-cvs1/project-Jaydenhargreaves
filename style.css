@@ -87,26 +87,19 @@ button {
 }
 
 .about-farm {
-  font-size: 1.2em; 
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px;
 }
 
 .about-farm h2 {
-  font-size: 20px; 
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  padding-top: 100px;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .about-farm p {
-  font-size: 1.5em;
-  text-align: center; 
-  padding-top: 125px;
-}
-
-.container-a-farm{
-  background-color: #F2F2F2;
-  max-width: auto;
-  height: 400px
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 footer {
