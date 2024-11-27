@@ -206,7 +206,7 @@ footer p {
   }
 }
 
-/* Medium devices (landscape tablets, 1200px and up) */
+/* bigger devices (landscape tablets, 1200px and up) */
 @media screen (min-width: 1200px) {
   .show-items {
     display: flex;
