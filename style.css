@@ -172,28 +172,27 @@ footer p {
   color: white;
 }
 
-.products{
+.products {
   background-color: #ffffff;
-  max-width: auto;
-  height: 400px;
+  padding: 20px;
+  text-align: center;
 }
 
-
-.products h2{
-  text-align: center;
-  padding-top: 50px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.list-product ul{
-  text-align: center;
-  justify-items: center;
+.list-product ul {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  font-size: 16px;
+  gap: 10px;
+}
+
+.list-product ul li {
+  font-size: 1.4rem;
 }
 
 
