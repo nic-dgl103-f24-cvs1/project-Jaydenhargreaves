@@ -205,3 +205,168 @@ footer p {
     gap: 40px;
   }
 }
+
+/* Medium devices (landscape tablets, 1200px and up) */
+@media screen (min-width: 1200px) {
+  .show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .header-img{
+  max-width: 150px;
+  height: 150px;
+  }
+  
+  .farm-fields-img{
+    background-image: url(images/farm_fields.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 600px;
+  }
+  
+  .hero-black-creek{
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+  
+  }
+  
+  h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  button{
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    color: #0D090A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .about-farm {
+    font-size: 1.2em; 
+  }
+  
+  .about-farm h2 {
+    font-size: 20px; 
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .about-farm p {
+    font-size: 1.5em;
+    text-align: center; 
+    padding-top: 125px;
+  }
+  
+  .container-a-farm{
+    background-color: #F2F2F2;
+    max-width: auto;
+    height: 400px
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #668c3f;
+    font-family: Arial, sans-serif;
+  }
+  
+  .toptext {
+    margin-bottom: 20px;
+    grid-column: span 2;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+    justify-self: start;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 90px;
+  }
+  
+  .footer-pages {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-pages a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-social {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-social a img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  footer p {
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+    grid-column: span 2;
+  }
+  
+  .footer-pages a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .products{
+    background-color: #ffffff;
+    max-width: auto;
+    height: 400px;
+  }
+  
+  
+  .products h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  
+  }
+  
+  .list-product ul{
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    font-size: 16px;
+  } 
+}
+  
