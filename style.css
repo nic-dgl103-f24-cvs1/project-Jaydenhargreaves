@@ -1,12 +1,15 @@
-*{ 
+* { 
   margin: 0; 
   padding: 0; 
   box-sizing: border-box;
-  }
+}
 
-html{
-  font-size: 62.5%;
-  margin: 0%;
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -113,7 +116,7 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #668c3f;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .toptext {
