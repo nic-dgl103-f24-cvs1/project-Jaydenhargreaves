@@ -18,10 +18,36 @@
       <ul id="nav-items">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About The Farm</a></li>
-        <li><a herf="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     </header>
+    
+    <location>
+      <div class="location">
+      <p>8083 N Island Highway</p>
+      <p>Black Creek, BC</p>
+      <br>
+      <hr>
+      <br>
+      <p>email: kehlervegetables@gmail.com</p>
+      <p>phone: (250) 202-3236</p>
+    </div>
+    </location>
+    
+    <form>
+      <div class="form-one">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname">
+      <label for="fname">Phone</label>
+      <input type="tel" name="telphone"  pattern="[0-9]{10}"  title="Ten digits code" required/>
+      <label for="femail ">email </label>
+      <input type="text" id="femail" name="femail">
+      <div class="submit-button">
+      <input type="submit" value="Submit"/>
+    </div>
+    </div>
+    </form>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d87847.63448553327!2d-125.0827055634665!3d49.81269984033694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m5!1s0x54881ba4e1337c15%3A0x74d901532b56595!2s8083%20N%20Island%20Hwy%2C%20Comox-Strathcona%20C%2C%20BC!3m2!1d49.824864899999994!2d-125.1246851!4m4!1s0x54881ba4e1337c15%3A0x74d901532b56595!3m2!1d49.8248612!2d-125.12466429999999!5e0!3m2!1sen!2sca!4v1732677531569!5m2!1sen!2sca" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
@@ -35,9 +61,9 @@
           <div class="footer-links">
             <nav>
               <ul class="footer-pages">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About The Farm</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About The Farm</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
             <ul class="footer-social">
@@ -49,5 +75,11 @@
         <p>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
         <p>©2024 Kehler Vegetable Company. All rights reserved.</p>
       </footer>
+      <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>
 </body>
 </html>
