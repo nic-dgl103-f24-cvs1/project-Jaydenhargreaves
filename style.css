@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
-
+/* SECTION HEADER NAV */
 header {
   background-color: #668C3F;
   margin-bottom: 10px;
@@ -55,6 +55,7 @@ nav ul li a {
 max-width: 150px;
 height: 150px;
 }
+/* SECTION HERO */
 
 .farm-fields-img {
   background-image: url(images/farm_fields.jpg);
@@ -86,6 +87,7 @@ button {
   text-align: center;
 }
 
+/* SECTION ABOUT FARM */
 .about-farm {
   font-size: 1.2rem;
   text-align: center;
@@ -101,9 +103,10 @@ button {
   font-size: 1.5rem;
   line-height: 1.6;
 }
+/* SECTION PRODUCTS */
 
 .products {
-  background-color: #ffffff;
+  background-color: #F2F2F2;
   padding: 20px;
   text-align: center;
 }
@@ -124,6 +127,7 @@ button {
 .list-product ul li {
   font-size: 1.4rem;
 }
+/* SECTION FOOTER */
 
 footer {
   background-color: #668c3f;
@@ -218,7 +222,7 @@ footer p {
   max-width: 150px;
   height: 150px;
   }
-  
+  /* SECTION HERO */
   .farm-fields-img{
     background-image: url(images/farm_fields.jpg);
     background-repeat: no-repeat;
@@ -251,7 +255,7 @@ footer p {
     display: inline-block;
     font-size: 16px;
   }
-  
+  /* SECTION ABOUT FARM */
   .about-farm {
     font-size: 1.2em; 
   }
@@ -274,7 +278,7 @@ footer p {
     max-width: auto;
     height: 400px
   }
-  
+  /* SECTION FOOTER */
   footer {
     text-align: center;
     padding: 20px;
@@ -344,9 +348,9 @@ footer p {
     text-decoration: underline;
     color: white;
   }
-  
+  /* SECTION PRODUCTS */
   .products{
-    background-color: #ffffff;
+    background-color: #F2F2F2;
     max-width: auto;
     height: 400px;
   }
