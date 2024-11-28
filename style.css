@@ -285,19 +285,10 @@ input[type=tel] {
   font-size: 16px;
 }
 
-
-.instagram-container {
-  display: flex;
-  justify-content: center;
+.instagram-media{
   align-items: center;
-  margin: 20px auto; /* Adjust margins as needed */
-  text-align: center;
 }
 
-.instagram-media {
-  max-width: 540px; /* Ensures embed stays within bounds */
-  width: 100%; /* Makes it responsive */
-}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
