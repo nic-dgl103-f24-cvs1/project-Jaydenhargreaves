@@ -228,6 +228,9 @@ input[type=tel] {
   box-sizing: border-box;
 }
 
+/* SCETION ABOUT */
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -412,5 +415,7 @@ input[type=tel] {
     padding-top: 60px;
     font-size: 16px;
   } 
+
+
 }
   
