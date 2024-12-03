@@ -289,6 +289,7 @@ input[type=tel] {
   align-items: center;
 }
 
+
 /* SCETION TABLE */
 table {
   font-family: arial, sans-serif;
@@ -314,6 +315,13 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F2F2F2;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -542,6 +550,14 @@ tr:nth-child(even) {
   padding-right: 50px;
 }
 
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%;
+  background-color: #F2F2F2;
+}
 
 }
   
