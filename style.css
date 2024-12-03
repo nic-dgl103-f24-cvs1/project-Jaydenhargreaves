@@ -289,6 +289,35 @@ input[type=tel] {
   align-items: center;
 }
 
+/* SCETION TABLE */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr th{
+  font-size: 18px;
+}
+
+tr td{
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.instagram-block{
+  align-items: center;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -312,7 +341,7 @@ input[type=tel] {
 }
 
 /* bigger devices (landscape tablets, 1200px and up) */
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   
   .show-items {
     display: flex;
@@ -372,11 +401,13 @@ input[type=tel] {
   .about-farm p {
     font-size: 1.5em;
     text-align: center; 
-    padding-top: 125px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .container-a-farm{
-    background-color: #F2F2F2;
+    background-color: white;
     max-width: auto;
     height: 400px
   }
@@ -454,7 +485,6 @@ input[type=tel] {
   .products{
     background-color: #F2F2F2;
     max-width: auto;
-    height: 400px;
   }
   
   
@@ -466,7 +496,7 @@ input[type=tel] {
   
   }
   
-  .list-product ul{
+  .table-list-product ul li{
     text-align: center;
     justify-items: center;
     display: flex;
@@ -485,6 +515,37 @@ input[type=tel] {
   width: 100%;
   height: 600px;
 }
+
+.how-grow p{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 17px;
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.committed p{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 17px;
+  height: 125px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.shop-now p{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  height: 125px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 
 }
   
