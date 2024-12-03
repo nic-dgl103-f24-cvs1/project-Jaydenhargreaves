@@ -213,11 +213,6 @@ form {
   margin: 0 auto; 
 }
 
-.form-bg{
-  background-color: #668c3f;
-  height: 200px;
-  width: 100%;
-}
 
 input[type=text] {
   width: 100%;
@@ -604,3 +599,7 @@ tr:nth-child(even) {
 
 }
   
+/* Anamtions*/
+
+
+
