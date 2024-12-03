@@ -213,6 +213,12 @@ form {
   margin: 0 auto; 
 }
 
+.form-bg{
+  background-color: #668c3f;
+  height: 200px;
+  width: 100%;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -287,6 +293,24 @@ input[type=tel] {
 
 .instagram-media{
   align-items: center;
+}
+
+.clearfix {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.img-container {
+  flex: 1 1 auto; 
+  max-width: 100%; 
+  padding: 5px;
+}
+
+.img-container img {
+  width: 100%; 
+  height: auto; 
 }
 
 
@@ -415,6 +439,25 @@ tr:nth-child(even) {
     max-width: auto;
     height: 400px
   }
+
+  .clearfix {
+    display: flex;
+    
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  .img-container {
+    flex: 1 1 auto; 
+    max-width: 45%; 
+    padding: 5px;
+  }
+  
+  .img-container img {
+    width: 100%; 
+    height: auto; 
+  }
+
   /* SECTION FOOTER */
   footer {
     text-align: center;
