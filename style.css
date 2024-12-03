@@ -62,6 +62,7 @@ height: 150px;
   background-repeat: no-repeat;
   background-size: cover; 
   height: 300px; 
+  width: 100vw;
 }
 
 .hero-black-creek {
@@ -74,7 +75,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
-  color: #ffffff;
+  color: white;
 }
 
 button {
@@ -85,6 +86,15 @@ button {
   padding: 10px 20px;
   font-size: 1.4rem;
   text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.visit-b{
+  margin-top: 30px;
 }
 
 /* SECTION ABOUT FARM */
@@ -382,6 +392,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     background-size: auto;
     height: 600px;
+    max-width: 100%;
   }
   
   .hero-black-creek{
@@ -601,5 +612,15 @@ tr:nth-child(even) {
   
 /* Anamtions*/
 
+button:hover{
+  background-color: #668c3f;
+}
 
+a:hover{
+  color: #ffffff;
+}
 
+.footer-social a:hover img {
+  transform: scale(1.2); 
+  opacity: 0.8; 
+}
