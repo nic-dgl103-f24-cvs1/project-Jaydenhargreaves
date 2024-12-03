@@ -13,7 +13,7 @@ body {
 }
 /* SECTION HEADER NAV */
 header {
-  background-color: #668C3F;
+  background-color: #5C8039;
   margin-bottom: 10px;
   padding: 0 16px;
   display: flex;
@@ -140,7 +140,7 @@ a{
 /* SECTION FOOTER */
 
 footer {
-  background-color: #668c3f;
+  background-color: #5C8039;
   text-align: center;
   padding: 20px;
 }
