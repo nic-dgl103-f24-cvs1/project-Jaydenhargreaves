@@ -11,6 +11,12 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+p{
+  font-family: "Roboto", sans-serif;
+}
+
+
 /* SECTION HEADER NAV */
 header {
   background-color: #5C8039;
