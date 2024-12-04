@@ -201,6 +201,11 @@ footer p {
   text-decoration: underline;
   color: white;
 }
+
+.toptext h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 /* SCETION CONTACT */
 
 .location {
@@ -444,7 +449,7 @@ tr:nth-child(even) {
 
   .container-a-farm {
     background-color: white;
-    max-width: auto;
+    max-width: 100%;
     height: 400px;
   }
 
