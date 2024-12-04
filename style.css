@@ -476,12 +476,13 @@ tr:nth-child(even) {
     text-align: center;
     padding: 20px;
     background-color: #668c3f;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   .toptext {
     margin-bottom: 20px;
     grid-column: span 2;
+    font-family: "Roboto", sans-serif;
   }
 
   .footer-content {
@@ -544,7 +545,7 @@ tr:nth-child(even) {
   /* SECTION PRODUCTS */
   .products {
     background-color: #f2f2f2;
-    max-width: auto;
+    max-width: 100%;
   }
 
   .products h2 {
