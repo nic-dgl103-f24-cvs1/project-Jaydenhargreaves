@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="header-img"
+        src="images/Farm_logo.png"
+        alt="logo of Kehler farm"
+      />
+      <nav>
+        <a class="toggle" onclick="showNav()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+        <ul id="nav-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About The Farm</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <location-section>
+      <div class="location">
+        <p>8083 N Island Highway</p>
+        <p>Black Creek, BC</p>
+        <br />
+        <hr />
+        <br />
+        <p>email: kehlervegetables@gmail.com</p>
+        <p>phone: (250) 202-3236</p>
+      </div>
+    </location-section>
+
+    <form>
+      <div class="form-one">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" />
+        <label for="fname">Phone</label>
+        <input
+          type="tel"
+          name="telphone"
+          pattern="[0-9]{10}"
+          title="Ten digits code"
+          required
+        />
+        <label for="femail ">email </label>
+        <input type="text" id="femail" name="femail" />
+        <div class="submit-button">
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </form>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d87847.63448553327!2d-125.0827055634665!3d49.81269984033694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e0!4m5!1s0x54881ba4e1337c15%3A0x74d901532b56595!2s8083%20N%20Island%20Hwy%2C%20Comox-Strathcona%20C%2C%20BC!3m2!1d49.824864899999994!2d-125.1246851!4m4!1s0x54881ba4e1337c15%3A0x74d901532b56595!3m2!1d49.8248612!2d-125.12466429999999!5e0!3m2!1sen!2sca!4v1732677531569!5m2!1sen!2sca"
+      width="100%"
+      height="250px"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <footer>
+      <div class="toptext">
+        <h3>
+          To follow along with the farm and to see what's growing, find us on
+          Facebook and Instagram.
+        </h3>
+      </div>
+      <div class="footer-content">
+        <figure class="footer-logo">
+          <img src="images/Farm_logo.png" alt="Logo" />
+        </figure>
+        <div class="footer-links">
+          <nav>
+            <ul class="footer-pages">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About The Farm</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <ul class="footer-social">
+            <li>
+              <a
+                href="https://www.facebook.com/kehlervegetables"
+                aria-label="Facebook"
+                ><img src="images/facebook_logo.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/kehlervegetables"
+                aria-label="Instagram"
+                ><img src="images/instagram_logo.png" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>
+        This is a fictional website that was designed and coded as an
+        educational exercise. It is not intended to be seen outside of the class
+        environment. None of the content and images were approved by the
+        business owner.
+      </p>
+      <p>©2024 Kehler Vegetable Company. All rights reserved.</p>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
